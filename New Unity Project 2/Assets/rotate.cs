@@ -13,5 +13,6 @@ public class rotate : MonoBehaviour {
 	void Update () {
 		transform.Rotate (new Vector3 (15, 30, 45) * Time.deltaTime * speed);
 	
+	// Classes are blueprints for object-oriented programming.
 	}
 }

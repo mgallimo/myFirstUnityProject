@@ -17,6 +17,8 @@ public class move : MonoBehaviour {
 		if (Input.GetKey (KeyCode.UpArrow)) {
 			gameObject.transform.Translate (0, .2f, 0);
 		}
+	
+		// Classes are blueprints for object-oriented programming.
 
 	}
 }
